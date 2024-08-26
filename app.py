@@ -29,6 +29,7 @@ def make_api_call(input_user, character):
             "decoding_method": "greedy",
             "max_new_tokens": 200,
             "min_new_tokens": 0,
+            "stop_sequences": ["additional","input","\n"],
             "stop_sequences": [],
             "repetition_penalty": 1
         },
